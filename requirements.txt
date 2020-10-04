@@ -12,7 +12,6 @@ colorama==0.4.3
 cymem==2.0.3
 decorator==4.4.2
 defusedxml==0.6.0
-en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz
 entrypoints==0.3
 idna==2.10
 ipykernel==5.3.4
@@ -71,3 +70,4 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 wincertstore==0.2
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz
