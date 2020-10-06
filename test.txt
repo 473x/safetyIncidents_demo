@@ -1,0 +1,74 @@
+argon2-cffi @ file:///D:/bld/argon2-cffi_1596630042503/work
+async-generator==1.10
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1599308529326/work
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache==1.6.1
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1600454382015/work
+blis==0.4.1
+catalogue==1.0.0
+certifi==2020.6.20
+cffi @ file:///D:/bld/cffi_1600276628150/work
+chardet==3.0.4
+colorama==0.4.3
+cymem==2.0.3
+decorator==4.4.2
+defusedxml==0.6.0
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz
+entrypoints==0.3
+idna==2.10
+importlib-metadata @ file:///D:/bld/importlib-metadata_1600910662556/work
+ipykernel @ file:///D:/bld/ipykernel_1595447084845/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///D:/bld/ipython_1598750147809/work
+ipython-genutils==0.2.0
+ipywidgets==7.5.1
+jedi @ file:///D:/bld/jedi_1595018491768/work
+Jinja2==2.11.2
+jsonschema==3.2.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1598486169312/work
+jupyter-core==4.6.3
+jupyter-server==1.0.4
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+MarkupSafe @ file:///D:/bld/markupsafe_1600368513338/work
+mistune==0.8.4
+murmurhash==1.0.2
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1598558657104/work
+nbconvert @ file:///D:/bld/nbconvert_1601713399722/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1601342677072/work
+notebook @ file:///D:/bld/notebook_1599742602312/work
+numpy==1.19.2
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1595548966091/work
+pickleshare==0.7.5
+plac==1.1.3
+preshed==3.0.2
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1598885455507/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1600347314331/work
+pyparsing==2.4.7
+pyrsistent @ file:///D:/bld/pyrsistent_1599988476846/work
+python-dateutil==2.8.1
+pywin32==227
+pywinpty==0.5.7
+pyzmq==19.0.2
+requests==2.24.0
+Send2Trash==1.5.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+spacy==2.3.2
+srsly==1.0.2
+terminado @ file:///D:/bld/terminado_1600709990768/work
+testpath==0.4.4
+thinc==7.4.1
+tornado==6.0.4
+tqdm==4.50.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1600970644261/work
+urllib3==1.25.10
+voila==0.2.3
+wasabi==0.8.0
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+widgetsnbextension==3.5.1
+wincertstore==0.2
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1601765966131/work
