@@ -55,7 +55,6 @@ pywinpty==0.5.7
 pyzmq==19.0.2
 requests==2.24.0
 Send2Trash==1.5.0
-setuptools==49.6.0.post20200917
 six==1.15.0
 spacy==2.3.2
 srsly==1.0.2
