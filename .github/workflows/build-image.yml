@@ -1,6 +1,7 @@
 # One-shot build of the Binder environment, frozen to GitHub Container Registry.
-# Trigger manually (Actions tab -> "Build and push Binder image" -> Run workflow)
-# AFTER changing requirements.txt/runtime.txt, then update the tag in Dockerfile.
+# Trigger by pushing a tag named freeze-* (e.g. freeze-2026-08-29), or manually
+# from the Actions tab, AFTER changing requirements.txt/runtime.txt, then update
+# the image tag in Dockerfile.
 # NOTE: repo2docker ignores requirements.txt while a Dockerfile is present, so to
 # rebuild from requirements: delete Dockerfile, run this workflow, re-add Dockerfile
 # pointing at the new image tag.
@@ -8,6 +9,9 @@ name: Build and push Binder image
 
 on:
   workflow_dispatch:
+  push:
+    tags:
+      - 'freeze-*'
 
 jobs:
   build:
