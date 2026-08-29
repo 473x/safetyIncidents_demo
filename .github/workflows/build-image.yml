@@ -1,0 +1,29 @@
+# One-shot build of the Binder environment, frozen to GitHub Container Registry.
+# Trigger manually (Actions tab -> "Build and push Binder image" -> Run workflow)
+# AFTER changing requirements.txt/runtime.txt, then update the tag in Dockerfile.
+# NOTE: repo2docker ignores requirements.txt while a Dockerfile is present, so to
+# rebuild from requirements: delete Dockerfile, run this workflow, re-add Dockerfile
+# pointing at the new image tag.
+name: Build and push Binder image
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build with repo2docker and push to ghcr.io
+        uses: jupyterhub/repo2docker-action@master
+        with:
+          DOCKER_USERNAME: ${{ github.actor }}
+          DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+          DOCKER_REGISTRY: ghcr.io
+          IMAGE_NAME: ${{ github.repository_owner }}/safetyincidents_demo
+          PUBLIC_REGISTRY_CHECK: true
